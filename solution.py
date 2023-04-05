@@ -7,6 +7,6 @@ chat_id = 728846853 # Ваш chat ID, не меняйте название пе�
 def solution(x: np.array) -> float:
     n = len(x)
     y = expon.rvs(loc = 15, size = n)
-    x = x + y
+    x = x - y
     a = x.mean()/10
     return a # Ваш ответ
